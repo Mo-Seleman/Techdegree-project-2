@@ -1,11 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Montserrat', sans-serif; 
+    color: #333;
+    line-height: 1.6;
+}
+.logo {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px auto;
 }
 
 ul {
     list-style: none;
+    font-size: 1.3rem;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    line-height: 1.2;
+    margin: 10px 0;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.main-nav {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif; 
+    margin: 20px auto;
+    line-height: 2;
+    
+}
+
+.home {
+    padding: .3rem 9rem;
+}
+.portfolio {
+    padding: .3rem 7.7rem;
+}
+.contact {
+    padding: .3rem 8.2rem;
+}
+.home, .portfolio, .contact {
+    background-color: #F8F8FF;   
+}
+
+.profile-img {
+    margin: 30px 50px 10px;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
 }
