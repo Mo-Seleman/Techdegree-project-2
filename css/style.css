@@ -11,7 +11,7 @@ body {
     color: #333;
     line-height: 1.6;
 }
-.logo {
+.logo,h2 {
     font-size: 2rem;
     text-align: center;
     margin: 20px auto;
@@ -65,10 +65,24 @@ img {
 }
 
 .profile-img {
-    margin: 30px 50px 10px;
+    margin: 20px 80px;
 }
 
-.intro {
-    padding: 20px;
+.intro, .marketing-text, p {
+    padding: 10px 20px;
     text-align: center;
+    }
+
+.portfolio-img, .marketing-img, .search-page, .travel-app, .mapofs, .photo-gallery { 
+    margin: 40px 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer {
+
 }
