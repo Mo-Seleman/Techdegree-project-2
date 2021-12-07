@@ -73,7 +73,7 @@ img {
     text-align: center;
     }
 
-.portfolio-img, .marketing-img, .search-page, .travel-app, .mapofs, .photo-gallery { 
+.portfolio-img, .marketing-img, .mofs-img, .photo-gallery-img, .search-page-img, .travel-app-img, .calculator-img { 
     margin: 40px 20px;
 }
 
@@ -93,3 +93,12 @@ img {
     font-family: 'Roboto Condensed', sans-serif; 
     font-size: 1.5rem;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .container {
+    display: flex;
+} */
