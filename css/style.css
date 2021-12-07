@@ -102,3 +102,12 @@ img {
 /* .container {
     display: flex;
 } */
+
+@media (min-width: 768px) {
+    li {
+        display: inline-block;
+    }
+    .home, .portfolio, .contact {
+        padding: 0 30px;   
+    }
+}
