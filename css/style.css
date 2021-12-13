@@ -30,6 +30,7 @@ h1, h2 {
     line-height: 1.2;
     margin: 10px 0;
     font-family: 'Roboto Condensed', sans-serif; 
+    clear: both; /*TESTING*/
 }
 
 p {
@@ -110,4 +111,27 @@ img {
     .home, .portfolio, .contact {
         padding: 0 30px;   
     }
+    /* .profile-img {
+        float: right;
+        width: 250px;
+        margin-left: 10px;
+} */
+ .container1 {
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ .profile-img {
+     width: 100vh;
+     margin-left: 5px;
+     margin-right: 20px;
+ }
+
+ .intro {
+     text-align: left;
+ }
+
+ .main-container {
+     display: flex;
+     
+ }
 }
