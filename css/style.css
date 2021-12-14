@@ -125,13 +125,25 @@ img {
      margin-left: 5px;
      margin-right: 20px;
  }
-
  .intro {
      text-align: left;
  }
 
  .main-container {
      display: flex;
-     
+     /* flex-wrap: wrap; */
  }
+ .col {
+    flex: 1 50%;
 }
+}
+
+ 
+
+
+
+
+ /* .portfolio-img, .marketing-img, .mofs-img, .photo-gallery-img, .search-page-img, .travel-app-img, .calculator-img {
+
+ } */
+
