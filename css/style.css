@@ -87,7 +87,7 @@ img {
     margin: 70px auto;
 }
 
-.footer {
+.footer1, .tablet-view {
     display: flex;
     justify-content: space-around;
     margin: 50px auto;
@@ -100,9 +100,12 @@ img {
     flex-direction: column;
 }
 
-/* .container {
-    display: flex;
-} */
+/* ===== MEDIA QUIRIES =====  */
+@media (max-width:768px) {
+.open {
+    display: none;
+}
+}
 
 @media (min-width: 768px) {
     li {
@@ -131,19 +134,27 @@ img {
 
  .main-container {
      display: flex;
-     /* flex-wrap: wrap; */
+     flex-wrap: wrap;
  }
  .col {
-    flex: 1 50%;
+    flex: 1 calc(50% - 40px);
+}
+.contact-p {
+    max-width: 70vh;
+    margin: 40px auto;
+}
+.btt {
+    display: none;
+}
+.footer1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+}
+.name-tag {
+    margin-right: auto;
+    padding-left: 30px;
 }
 }
-
- 
-
-
-
-
- /* .portfolio-img, .marketing-img, .mofs-img, .photo-gallery-img, .search-page-img, .travel-app-img, .calculator-img {
-
- } */
 
