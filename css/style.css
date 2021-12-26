@@ -42,7 +42,6 @@ img {
 }
 
 .main-nav {
-    /* display: flex; */
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
@@ -74,7 +73,7 @@ img {
     text-align: center;
     }
 
-.portfolio-img, .marketing-img, .mofs-img, .photo-gallery-img, .search-page-img, .travel-app-img, .calculator-img { 
+.portfolio-img, .marketing-img, .mofs-img, .photo-gallery-img, .search-page-img, .travel-app-img, .calculator-img, .skills { 
     margin: 40px 20px;
 }
 
@@ -98,6 +97,16 @@ img {
 .body {
     display: flex;
     flex-direction: column;
+}
+
+.skills2 {
+    background-color: rgb(161, 163, 165);
+    border: #333 solid 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#slogo {
+    text-align: center;
 }
 
 /* ===== MEDIA QUIRIES =====  */
