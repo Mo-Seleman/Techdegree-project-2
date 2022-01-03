@@ -60,7 +60,8 @@ img {
 .contact {
     padding: .3rem 8.2rem;
 }
-.home, .portfolio, .contact {
+
+.home, .portfolio, .contact, .skills {
     background-color: #F8F8FF;   
 }
 
@@ -108,13 +109,12 @@ img {
 #slogo {
     text-align: center;
 }
-
-/* ===== MEDIA QUIRIES =====  */
-@media (max-width:768px) {
 .open {
     display: none;
 }
-}
+
+
+/* ===== MEDIA QUIRIES =====  */
 
 @media (min-width: 768px) {
     li {
@@ -122,6 +122,10 @@ img {
     }
     .home, .portfolio, .contact {
         padding: 0 30px;   
+    }
+
+    .open {
+        display: flex;
     }
   
  .container1 {
